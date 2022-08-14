@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #FFFFFF;
+    position: relative;
+    align-items: center;
+    background-size: cover;
+}
+
+.part1{
+    background-color:#F9F5EB; 
+    padding: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.part1 .talk{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.part1 .talk h1{
+ font-size:3.0rem;
+ letter-spacing: 1px;
+ padding-bottom: 10px;
+ color: #000; 
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ position: center;
+ text-align: center;
+
+}
+
+.part1 .talk button{
+    width: 45%;
+    margin:3rem;
+    padding: 1.3rem;
+    color: #fff;
+    background-color: #FAC213;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.part1 .talk p{
+    font-size:1.3rem;
+    color:#111; 
+    text-align: center;
+    
+   
+   }
+
+   .d-flex.ch input .{
+    color: #fff;
+    background-color: #FAC213;
+   }
+
+.part1 .img{
+    width: 70%;
+    position: space-between;
+    position: relative;
+    
+    
+    
+}
+
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #31087B;
+    padding: 10px 10px;
+    font-size: 14px;
+    background: transparent;
+    transition: 1s;
+    letter-spacing: 0.3em;
+}
+
+.hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    margin: 1rem;
+    color: #fff;
+    padding: 10px 11px;
+    font-size: 14px;
+    background-color: #FAC213;
+    transition: 1s;
+    letter-spacing: 0.3em;
+    font-weight: 100;
+}
+
+
+.part1 .img img{
+    width: 80%;
+    padding: 5%;
+    margin-left: 6%;
+    
+}
+.part2{
+    background-color:#FFFFFF ;
+}
+
+.part2 h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    background-size: cover;
+}
+
+.col.btn{
+    width: 20%;
+    margin:1rem;
+    padding: 1rem;
+    color: #fff;
+    background-color: #FAC213;
+    font-family: 'Times New Roman', Times, serif; 
+    
+    align-items: center;
+}
+
+.part3{
+    background-color:#F1F1F1; 
+    padding: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.part3.talk h1{
+    
+    font-size: 18px;
+    padding: 0px 10%;
+}
+
+.part3.talk h5{
+    margin: auto;
+
+}
+
+.part3.talk p {
+    margin-bottom: 50px;
+}
